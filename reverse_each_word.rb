@@ -4,7 +4,7 @@ def reverse_each_word(string)
   # result
   array = string.split(" ")
   last_message = []
-  array.each do |string|
+  array.collect do |string|
     array << string.reverse
   end
   array.join(" ")
