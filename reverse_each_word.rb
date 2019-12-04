@@ -4,5 +4,5 @@ def reverse_each_word(string)
   array.collect do |words|
     last_message << words.reverse
   end
-  array.join(" ")
+  last_message.join(" ")
 end
